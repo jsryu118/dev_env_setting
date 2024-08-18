@@ -14,6 +14,12 @@ git config credential.helper 'cache --timeout=300'
 영구 저장
 git config --global credential.helper store
 
+저장된 정보 없애기
+rm ~/.git-credentials
+git config --global --unset credential.helper
+
+
+
 
 asdfasdf
 asdasdf
