@@ -15,7 +15,10 @@ sudo ubuntu-drivers autoinstall
 ```
 
 ## .deb program install
-chrome, vscode
+chrome
+https://www.google.com/chrome/
+vscode
+https://code.visualstudio.com/download
 
 ## apt program install
 ```bash
