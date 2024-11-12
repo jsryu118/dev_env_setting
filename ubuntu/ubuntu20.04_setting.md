@@ -14,6 +14,25 @@ ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 ```
 
+## wifi driver install
+
+```bash
+# Check wifi card
+sudo update-pciids
+```
+### follow the guideline inthe the below link
+https://github.com/HRex39/rtl8852be
+
+```bash
+#Turn off your Security Boot in BIOS
+
+git clone https://github.com/HRex39/rtl8852be.git
+cd rtl8852be
+make -j8
+sudo make install
+sudo modprobe 8852be
+```
+
 ## .deb program install
 chrome
 https://www.google.com/chrome/
