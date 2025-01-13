@@ -48,3 +48,27 @@ make install
 ```bash
 cmake --version
 ```
+
+## CloudCompare
+Installation\
+[CloudCompare src Installation](https://github.com/CloudCompare/CloudCompare/blob/master/BUILD.md)
+
+Installation
+```bash
+sudo snap install cloudcompare
+
+# for read .pcd files
+sudo snap refresh --edge cloudcompare
+```
+
+Execution
+```bash
+cloudcompare.CloudCompare
+```
+
+Connect portable storage device
+```bash
+sudo snap connect cloudcompare:removable-media
+# Check connection
+snap connections cloudcompare
+```
